@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NFTSeas</title>
+		<style type="text/css">
+			html,body{
+				margin: 0;
+			}
+			.el-collapse-item__header{
+				display: block !important;
+				text-align: right;
+			}
+			.el-collapse-item__arrow{
+				display: none !important;
+			}
+			.el-collapse-item__content{
+				padding-bottom: 15px !important;
+				text-align: right;
+			}
+		</style>
+	  <script type="module" crossorigin src="/assets/index.b12280ab.js"></script>
+    <link rel="modulepreload" href="/assets/vendor.03a3b210.js">
+    <link rel="stylesheet" href="/assets/index.dd4257fd.css">
+  </head>
+	<body>
+		<div id="app"></div>
+		
+		<script type="text/javascript" src="/src/assets/js/jq.js"></script>
+		<script type="text/javascript" src="/src/assets/js/web3.js"></script>
+		<script type="text/javascript" src="/src/assets/js/particles.js"></script>
+		<script type="text/javascript">
+			let uiWidth = 1920
+			let pageWidth = $(window).width()
+			$('#html').css('zoom',pageWidth/uiWidth)
+			$(window).resize( function  () {
+				let nowWinWidth = $(window).width()
+				$('#html').css('zoom',nowWinWidth/uiWidth)
+			});
+			
+			
+		</script>
+	</body>
+</html>
